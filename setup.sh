@@ -19,24 +19,27 @@ sudo -u ubuntu git lfs install --skip-smudge
 ## Install AUTOMATIC1111 + Extensions
 # install AUTOMATIC1111
 sudo -u ubuntu git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
-cd stable-diffusion-webui
-sudo -u ubuntu pip install -r requirements_versions.txt
+#cd stable-diffusion-webui
+#sudo -u ubuntu pip install -r requirements_versions.txt
 
 # install AUTOMATIC1111 Extensions
 cd stable-diffusion-webui/extensions
 
 # install dreambooth
 sudo -u ubuntu git clone https://github.com/d8ahazard/sd_dreambooth_extension.git
-cd stable-diffusion-webui/extensions/sd_dreambooth_extension
-sudo -u ubuntu pip install -r requirements.txt
+#cd stable-diffusion-webui/extensions/sd_dreambooth_extension
+#sudo -u ubuntu pip install -r requirements.txt
+
+# install smart_process
+sudo -u ubuntu git clone https://github.com/d8ahazard/sd_smartprocess
+#cd stable-diffusion-webui/extensions/sd_smartprocess
+#sudo -u ubuntu pip install -r requirements.txt
 
 # install system-info
 sudo -u ubuntu git clone https://github.com/vladmandic/sd-extension-system-info.git
 
-# install smart_process
-sudo -u ubuntu git clone https://github.com/d8ahazard/sd_smartprocess
-cd stable-diffusion-webui/extensions/sd_smartprocess
-sudo -u ubuntu pip install -r requirements.txt
+# install image-browser
+sudo -u ubuntu git clone https://github.com/yfszzx/stable-diffusion-webui-images-browser.git
 
 # More Extensions ...
 
