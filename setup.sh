@@ -42,6 +42,7 @@ sudo -u ubuntu git clone https://github.com/vladmandic/sd-extension-system-info.
 sudo -u ubuntu git clone https://github.com/yfszzx/stable-diffusion-webui-images-browser.git
 
 # More Extensions ...
+cd /home/ubuntu
 
 ## Download and Install Models
 # download the SD model v2.1 and move it to the SD model directory
@@ -51,6 +52,7 @@ sudo -u ubuntu git lfs pull --include "v2-1_512-ema-pruned.ckpt"
 sudo -u ubuntu git lfs install --force
 cd ..
 mv stable-diffusion-2-1-base/v2-1_512-ema-pruned.ckpt stable-diffusion-webui/models/Stable-diffusion/
+
 rm -rf stable-diffusion-2-1-base/
 wget https://raw.githubusercontent.com/Stability-AI/stablediffusion/main/configs/stable-diffusion/v2-inference.yaml
 cp v2-inference.yaml stable-diffusion-webui/models/Stable-diffusion/v2-1_512-ema-pruned.yaml
