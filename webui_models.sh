@@ -1,4 +1,4 @@
-mkdir -p /home/ubuntu/models_downloads
+sudo -u ubuntu mkdir -p /home/ubuntu/models_downloads
 cd /home/ubuntu/models_downloads
 
 # download the SD model v2.1 and move it to the SD model directory
